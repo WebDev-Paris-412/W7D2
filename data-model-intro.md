@@ -3,21 +3,25 @@
 ```js
 user = {
   name: 'Bob',
-  birth: Date,
+  birth: '01/19/1990',
   favoriteGames: [
     {
       id: 1367,
-      name: 'Kerbal Space Progra',
+      name: 'Kerbal Space Program',
     },
     {
       id: 76543,
       name: 'Portal 2'
+    },
+    {
+      id: 1234,
+      name: 'Outer Wilds'
     }
   ]
 }
 user = {
   name: 'Alice',
-  birth: Date,
+  birth: '10/30/1992',
   favoriteGames: [
     {
       id: 1367,
@@ -41,16 +45,16 @@ users = [
 		name: "Bob",
 		birth: Date,
 		password: "SRTH3R33I,939523HFOEFHZEHF359237",
-		// favoriteGames: [76542, 24568, 964325],
+		favoriteGames: [76542, 24568, 964325],
 	},
 	{
 		id: 12355,
 		name: "Alice",
 		birth: Date,
 		password: "SRTH3R33,I939523HFOEFHZEHF359237",
-		// favoriteGames: [1367, 76543, 76423],
+		favoriteGames: [1367, 76543, 76423],
 	},
-];
+]
 
 messages = [
 	{
@@ -60,7 +64,7 @@ messages = [
 		content: "Well hello there!",
 		timestamp: Date,
 	},
-];
+]
 
 favorites = [
 	{
@@ -78,7 +82,7 @@ favorites = [
 		user: 267853,
 		game: 865275,
 	},
-];
+]
 
 games = [
 	{
@@ -94,7 +98,7 @@ games = [
 		name: "The Sims",
 		cheatCode: "rosebud -> give 1000$",
 	},
-];
+]
 ```
 
 ### One to one relationship
